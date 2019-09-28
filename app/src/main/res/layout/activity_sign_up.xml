@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgsign"
+    tools:context=".SignUp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:paddingBottom="20dp"
+        tools:context=".SignUp">
+
+        <TextView
+            android:id="@+id/signUpText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="36dp"
+            android:text="Sign Up"
+            android:textColor="#FFF"
+            android:textSize="42sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/emailText"
+            android:layout_width="288dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="61dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bginput"
+            android:hint="Email Adress"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#87FFFFFF"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profilImage" />
+
+
+        <EditText
+            android:id="@+id/complateNameText"
+            android:layout_width="288dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="61dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/bginput"
+            android:hint="Complate Name"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#87FFFFFF"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emailText" />
+
+
+        <EditText
+            android:id="@+id/userPasswordText"
+            android:layout_width="288dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="61dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/bginput"
+            android:hint="Password"
+            android:inputType="text|textPassword"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#87FFFFFF"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/complateNameText" />
+
+        <EditText
+            android:id="@+id/locationText"
+            android:layout_width="288dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="61dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/bginput"
+            android:hint="Password Again"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#87FFFFFF"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userPasswordText" />
+
+        <Button
+
+            android:id="@+id/btnjoin"
+            android:layout_width="168dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/bgbtn"
+            android:onClick="uploadUserCloudFireStore"
+            android:text="Get Start Today"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/locationText" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profilImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="130dp"
+            android:cropToPadding="false"
+            android:onClick="selectImage"
+            android:scaleType="centerCrop"
+            app:layout_constraintCircleRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signUpText"
+            app:civ_border_color="#FFFFFF"
+            app:civ_border_width="2dp"
+            android:src="@drawable/bgapp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
