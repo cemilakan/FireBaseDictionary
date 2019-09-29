@@ -10,12 +10,11 @@ Uygulamanın tüm adımlarının ekran görüntüleri sırasıyla aşağıdadır
 
 Below are screenshots of all steps of the application
 
-### İlk resimde oturum açma sayfası, google hesabı açma kısmı ve sornada tüm kelimelrin bulundugu activity var.
-### First image is Sign In page, pick google account then words activity.
-
 ![alt text](https://raw.githubusercontent.com/cemilakan/FireBaseDictionary/master/images/github_firebase-1.jpg)
+![alt text](https://raw.githubusercontent.com/cemilakan/FireBaseDictionary/master/images/github_firebase-2.jpg)
+![alt text](https://raw.githubusercontent.com/cemilakan/FireBaseDictionary/master/images/github_firebase-3.jpg)
 
 
-What things you need to install the software and how to install them
+Thanks for visit.
 
 
