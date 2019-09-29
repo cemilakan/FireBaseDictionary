@@ -6,10 +6,15 @@ I made a dictionary app by using Firebase Cloud Firestore. Also there is profile
 
 ## Uygulama Görüntüleri / App Pictures
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Uygulamanın tüm adımlarının ekran görüntüleri sırasıyla aşağıdadır.
+
+Below are screenshots of all steps of the application
+
+### İlk resimde oturum açma sayfası, google hesabı açma kısmı ve sornada tüm kelimelrin bulundugu activity var.
+### First image is Sign In page, pick google account then words activity.
+
 ![alt text](https://raw.githubusercontent.com/cemilakan/FireBaseDictionary/master/images/github_firebase-1.jpg)
 
-### Prerequisites
 
 What things you need to install the software and how to install them
 
