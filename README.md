@@ -12,7 +12,7 @@ Below are screenshots of all steps of the application
 
 ![alt text](https://raw.githubusercontent.com/cemilakan/FireBaseDictionary/master/images/github_firebase-1.jpg)
 ![alt text](https://raw.githubusercontent.com/cemilakan/FireBaseDictionary/master/images/github_firebase-2.jpg)
-
+![alt text](https://raw.githubusercontent.com/cemilakan/FireBaseDictionary/master/images/github_firebase-3.jpg)
 
 Thanks for visit.
 
